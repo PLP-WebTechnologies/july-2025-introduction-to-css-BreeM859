@@ -1,0 +1,63 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Header */
+.site-header {
+  background-color: #004d99;
+  color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+}
+
+.site-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Card Component */
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
